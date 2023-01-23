@@ -1,0 +1,32 @@
+{
+  "name": "Solless Mint",
+  "description": "Solless Mint",
+  "image": "https://bafybeihqrv4wa2icf2qlsfamfrqxtdrg4hg54vikn5r4ifh3nay2vj75vu.ipfs.w3s.link/bf653f46-28c1-4dbb-bb7f-1bfbda0995f3.jpeg",
+  "animation_url": "",
+  "external_url": "https://sollesmint.xyz",
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "transparent"
+    }
+  ],
+  "collection": {
+    "name": "Solless Mint",
+    "family": "Solless Mint"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://bafybeihqrv4wa2icf2qlsfamfrqxtdrg4hg54vikn5r4ifh3nay2vj75vu.ipfs.w3s.link/bf653f46-28c1-4dbb-bb7f-1bfbda0995f3.jpeg",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "9QTvMhJr7fRBLdPArfogHtz4GMD8QZZju9SVxLyMcrKo",
+        "share": 100
+      }
+    ]
+  }
+}

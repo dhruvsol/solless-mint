@@ -38,9 +38,9 @@ export const createMint = async (userKey: String) => {
   let wallet_ata = await getAssociatedTokenAddress(mintKey.publicKey, user);
 
   const data: DataV2 = {
-    name: "Test",
-    symbol: "abc",
-    uri: "https://ipfs.io/ipfs/QmXkixwBfUdVujPvk3JW1nn9akg7EaYXiNBBdQKAeGfpim",
+    name: "Solless",
+    symbol: "SLM",
+    uri: "https://bafybeih6syngv576u6gn3objqi5m7caayc4tjhojxvwr5ujjubdlnucrl4.ipfs.w3s.link/Untitled-1.json",
     sellerFeeBasisPoints: 10000,
     creators: [
       {

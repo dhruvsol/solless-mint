@@ -5,9 +5,11 @@ import { ClientWalletProvider } from "../context/walletProivder";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <ClientWalletProvider>
-        <Component {...pageProps} />
-      </ClientWalletProvider>
+      <ChakraProvider>
+        <ClientWalletProvider>
+          <Component {...pageProps} />
+        </ClientWalletProvider>
+      </ChakraProvider>
     </>
   );
 }

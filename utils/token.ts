@@ -12,7 +12,6 @@ import {
   createAssociatedTokenAccountInstruction,
   createTransferInstruction,
 } from "@solana/spl-token";
-
 export const sendSPL = async (
   mint: string,
   fromPubKey: PublicKey,
@@ -45,7 +44,7 @@ export const sendSPL = async (
         fromTokenAccount,
         toTokenAccount,
         fromPubKey,
-        Number(amount) * 1000000
+        Number(amount) * 100000
       )
     );
     // const { blockhash } = await connection.getLatestBlockhash();
